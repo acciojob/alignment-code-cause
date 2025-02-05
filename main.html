@@ -24,7 +24,7 @@
         }
         th, td {
             border: 1px solid black;
-            padding: 10px;
+            padding: 1px;  /* Fixed padding */
             text-align: center;
         }
         .middle {
@@ -56,12 +56,12 @@
     <table id="table-1" class="middle">
         <tr>
             <td id="t11">Row 1, Cell 1</td>
-            <td id="t12">Row 1, Cell 2</td>
-            <td id="t13" class="right">Row 1, Cell 3</td>
+            <td id="t12" class="center">Row 1, Cell 2</td> <!-- FIXED: Added "center" class -->
+            <td id="t13" class="right">Row 1, Cell 3</td>  <!-- FIXED: Ensured "right" class -->
         </tr>
         <tr class="center">
             <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
+            <td class="center">Row 2, Cell 2</td>
             <td class="right">Row 2, Cell 3</td>
         </tr>
         <tr>
@@ -70,7 +70,7 @@
             <td class="right">Row 3, Cell 3</td>
         </tr>
     </table>
-<br><br>
+<br><br.
     <!-- Table 2 -->
     <table id="table-2" class="middle">
         <tr>
